@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    background: rgb(23, 22, 22);
+}
+
+.container {
+    border: 1px solid black;
+     padding: 15px 30px 15px 30px;
+     position: relative;
+     top: 2px;
+    background: whitesmoke;
+}
+
+                        /* Header design */
+.header {
+    margin: 15% 0 15% 0;
+}
+
+.clear {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: outset;
+    border-width: 1px;
+    position: relative;
+    padding: 2%;
+}
+
+.clear > span{
+    margin-left: 5px;
+}
+
+
+.clear::after {
+    content: "";
+    background-color: black;
+    left: 50%;
+    width: 1px;
+    height: 70%;
+    
+    position: absolute;
+}
+
+ .income {
+    margin: 2% 5% 2% 12%;   
+}
+
+.expense {
+    margin: 2% 12% 2% 5%;
+}
+
+.num1 {
+    color: rgb(26, 210, 26);
+    position: relative;
+    left: 8px;
+}
+
+.num2 {
+    color: rgb(199, 0, 0);
+    position: relative;
+    left: 8px;
+}
+
+#balance {
+    margin-bottom: 3%;
+}
+
+                         /* Content design */
+.content {
+    margin: 10% 0 15% 0;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+    line-height:25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: groove;
+    border-width: 1px;
+    margin: 5% 0 5% 0;
+    padding: 3%;
+    
+}
+
+.Red {
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right-color: rgb(199, 0, 0);
+}
+
+.green {
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right-color: rgb(26, 210, 26);
+}
+
+                        /* footer design  */
+.text {
+    margin: 5% 0 5% 0;
+}
+
+.amount {
+    margin: 5% 0 5% 0;
+}
+
+button {
+    border: none;
+    border-style: unset;
+    color: whitesmoke;
+    background-color: rgb(176, 127, 176);
+    padding: 2% 32% 2% 32%;
+}
+
+input {
+    margin: 5px 0 5px 0;
+    padding: 1% 30% 1% 2%;
+}   
